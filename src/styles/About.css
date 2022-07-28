@@ -1,0 +1,45 @@
+.About {
+  text-align: center;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.AboutTitle {
+  margin: 100px 0 20px 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+}
+.devider {
+  width: 154px;
+  height: 4px;
+  background: #ff8a00;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+.aboutDescription {
+  text-align: center;
+}
+.readMore {
+  width: 148px;
+  height: 40px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 30px;
+  background-color: white;
+  color: #000000;
+  transition: ease 0.3s;
+}
+.readMore:hover {
+  cursor: pointer;
+  background: rgb(2, 129, 99);
+  color: white;
+}

@@ -1,0 +1,51 @@
+.active {
+  color: rgba(239, 103, 12, 0.932);
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 30px;
+}
+.inactive {
+  text-decoration: none;
+  color: black;
+  padding-right: 30px;
+}
+.navHolder {
+  margin: 30px 200px 30px 200px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+.nav {
+  display: flex;
+  text-decoration: none;
+  align-items: center;
+  margin-left: auto;
+}
+button {
+  /* padding: 10px 20px; */
+  border-radius: 50px;
+  background-color: #ff8a00;
+  color: white;
+  font-weight: 700;
+  border: none;
+  font-size: 16px;
+  line-height: 19px;
+  width: 154px;
+  height: 40px;
+  transition: ease 0.3s;
+}
+.navButton:hover {
+  background-color: rgb(206, 5, 2);
+}
+.redlogo {
+  color: rgb(236, 17, 13);
+}
+.blacklogo {
+  color: black;
+}
+span {
+  font-size: 35px;
+  font-weight: bold;
+}
+.navLinkLogo {
+  text-decoration: none;
+}
